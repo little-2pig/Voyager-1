@@ -8,25 +8,24 @@ assignees: ''
 ---
 
 **是否使用了最新代码**
-是或否（如果不是的话尝试克隆最新的代码再跑一下！）
+是
 
 **Bug描述**
-清晰而简洁的Bug描述（必写）
-
+docker pull ap0llo/oneforall:0.1.0
+docker pull ap0llo/dirsearch:0.3.9
+docker pull ap0llo/poc:xunfeng
+docker pull ap0llo/poc:kunpeng
+docker pull ap0llo/poc:bugscan  镜像拉取失败
 **运行环境**
- - 系统：[例如Windows 10 x64]（必写）
- - Python版本：[例如3.8.1]（必写）
+ - 系统：[Ubuntu 18.04]
+ - Python版本：[3.8.1]
 
  
 **如何复现**
-复现步骤（必写,请提交web界面截图和console截图）
+
+
 
 
 **报错文本**
-复制完整的报错文本（必写）
+pull access denied for ap0llo/poc, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
 
-**预期结果**
-清晰而简洁的预期结果描述（选写，如正常情况应该是怎么样的）
-
-**实际结果**
-清晰而简洁的实际结果描述（选写，如出现什么错误）
